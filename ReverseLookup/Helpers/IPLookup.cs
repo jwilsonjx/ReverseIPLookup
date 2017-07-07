@@ -9,6 +9,9 @@ using log4net;
 
 namespace ReverseLookup.Helpers
 {
+    /// <summary>
+    /// Reverse IP lookup -- not implemented at this time due to better results with the WhoIS and GeoLocation data
+    /// </summary>
     public static class IPLookup
     {
         private static readonly ILog Logger = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
